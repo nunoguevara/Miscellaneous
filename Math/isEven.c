@@ -1,5 +1,5 @@
-#include <stdio.h>
+#include <stdbool.h>
 
-int isEven(int a) {
+bool isEven(int a) {
 	return a % 2 == 0;
 }
